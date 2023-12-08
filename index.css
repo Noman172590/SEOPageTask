@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0059a5;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c90e7; }
+body{
+    display: flex;
+    gap: 10px;
+    width: 2150px;
+   
+    padding: 2px;
+    border-radius: 10px;
+    /* scrollbar-color:yellow; */
+    
+    overflow-x: scroll;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.sectionColor{
+    background-color: #e4e4e4;
+    margin-top: 15px;
+    width: 350px;
+    
+}
+.symbol{
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border: none;
+            margin-right: 3px;
+            
+            border-radius: 100px 0px 0px 100px;
+            -webkit-border-radius: 100px 0px 0px 100px;
+            -moz-border-radius: 100px 0px 0px 100px;
+            -ms-border-radius: 100px 0px 0px 100px;
+            -o-border-radius: 100px 0px 0px 100px;
+}
+
+.incompleteAdd{
+    display: flex;
+    align-items: center;
+}
+
+.incomplete{
+    font-weight: bold;
+    color: #606060;
+}
+.zero{
+    border: none;
+    background-color: rgb(209, 207, 207);
+}
+
+.first{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+   
+}
+.imgOne{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.imgtwo{
+    display: flex;
+    justify-content:space-between; 
+}
+.imgClientNameAdd{
+    display: flex;
+    align-items: center;
+}
+.clientName{
+    font-size: 16px;
+    font-weight:500;
+}
+
+.thrid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.thrid_div{
+    display: flex;
+}
+.thrid_divColor{
+    background-color: rgb(224, 220, 220);
+    padding: 3px;
+    height: 30px;
+}
+
+.imgoneflex{
+    display: flex;
+}
+
+.circle{
+    background: rgb(207, 206, 206);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+
+    
+}
+
+.chat{
+    color: gray;
+    display: flex;
+    
+}
+
+
+.second{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.overflewMaking{
+    width: 100%;
+    height: 700px;
+    overflow-y: scroll;
+   
+    
+    border: 1px solid #ccc;
+}
+
+
+.mobilebutton{
+   
+    background-color:#f0eeee ;
+    border: none;
+}
+
+
+
+.four{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    justify-content:space-between;
+    margin-left: -2px;
+}
+.half{
+    font-weight: bold;
+}
+/* Changing color */
+.todosymbol{
+    background-color: #1f87e2;
+}
+.doingsymbol{
+
+    background-color: rgba(241, 157, 0, 0.788);
+
+}
